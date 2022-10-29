@@ -1,0 +1,1 @@
+web gunicorn stageonetask.wsgi:application --log-file -
