@@ -3,6 +3,6 @@ from . import views
 
 urlpatterns = [
     path('', views.getData),
-    path('', views.addData)
+    path('calculate', views.addData)
 
 ]
